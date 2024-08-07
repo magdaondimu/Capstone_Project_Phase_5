@@ -58,7 +58,7 @@ st.sidebar.write("""
 
     **Control Measures**: The government is likely to use crowd control measures such as dispersal or arrests.
 
-    **Forceful Repression**: The government is likely to engage in forceful repression, including beatings, shootings, or killings.
+    **Forceful Repression**: The government is likely to engage in use of excessive force, including beatings, shootings, or killings.
 """)
 
 # Define numerical and binary features
