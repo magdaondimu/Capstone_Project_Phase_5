@@ -26,7 +26,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Load the cleaned dataset
-df = pd.read_csv('mass_mobilization_cleaned.csv')
+df = pd.read_csv('visual_deployment/mass_mobilization_cleaned.csv')
 
 # Top navigation
 nav = st.radio("Navigation", ["Home", "World Trends", "Regional Trends", "Country Trends"], horizontal=True)
@@ -42,9 +42,9 @@ if nav == "Home":
     
     # Add a slideshow of images with captions
     images = [
-        {"path": "image(1).webp", "caption": "Supporters of Venezuelan opposition leader Juan Guaidó take part in a march in Caracas in February 2019."},
-        {"path": "image(2).webp", "caption": "Iraqi protesters join hands after taking part in prayers during anti-government demonstrations in the Shiite holy city of Najaf, in November 2019."},
-        {"path": "image(3).jpg", "caption": "#EndSars protests against police brutality is seen by analysts as a turning point in Nigerian politics and the youth vote is expected to be critical in the 2023 election."}
+        {"path": "visual_deployment/image(1).webp", "caption": "Supporters of Venezuelan opposition leader Juan Guaidó take part in a march in Caracas in February 2019."},
+        {"path": "visual_deployment/image(2).webp", "caption": "Iraqi protesters join hands after taking part in prayers during anti-government demonstrations in the Shiite holy city of Najaf, in November 2019."},
+        {"path": "visual_deployment/image(3).jpg", "caption": "#EndSars protests against police brutality is seen by analysts as a turning point in Nigerian politics and the youth vote is expected to be critical in the 2023 election."}
     ]
     
     current_image = st.session_state.get('current_image', 0)
