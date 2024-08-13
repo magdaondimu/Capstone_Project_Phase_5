@@ -24,7 +24,7 @@ This repository contains an in-depth analysis of global protest events from 1990
    ![image](https://github.com/user-attachments/assets/d6f8b13c-d3fe-4f76-9f83-38e02f5c87f4)
    **The above graph shows the Temporal Trends of Protests.**
    
-   ![image](https://github.com/user-attachments/assets/f688ac1d-0c2b-4fb8-944e-ce49c03b22f2)
+   ![image](https://github.com/user-attachments/assets/ff8a6e1f-5e26-47da-824a-48b0ef6546fa)
    **The above graph shows some of the protests' characteristics.**
    
    ![image](https://github.com/user-attachments/assets/1fa3806e-d37b-43c5-9d2d-4c1614113232)
